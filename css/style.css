@@ -1,8 +1,23 @@
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+    padding: 0;
+    margin: 0;
 }
-body{
-    background: linear-gradient(to right,rgb(0, 102, 255) rgb(0, 174, 255));
-    color: white;
+
+body {
+    background: linear-gradient(to left, #96c3ff, #539dff, #1078ff);
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
 }
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+input, label, button{
+    margin: 1rem;
+    border-color: white;
+    border-radius: 0.3rem;
+}
+
